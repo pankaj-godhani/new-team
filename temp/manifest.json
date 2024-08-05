@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "b629c410-50c3-11ef-b3ba-c965f2c8c425",
+  "version": "0.0.1",
+  "packageName": "testingteam",
+  "developer": {
+    "name": "perksweet-team",
+    "websiteUrl": "https://testingteam.azurewebsites.net",
+    "privacyUrl": "https://testingteam.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://testingteam.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "testingTeam",
+    "full": "testingTeam"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://testingteam.azurewebsites.net/testingTeamTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "testingteam.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false
+}
